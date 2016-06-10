@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>RapidEE</id>
-    <version>8.0.930</version>
+    <id>rapidee</id>
+    <version>9.0.930</version>
     <title>RapidEE</title>
     <authors>Oleg Danilov</authors>
-    <owners>glachance</owners>
+    <owners>Raphx</owners>
     <licenseUrl>http://www.rapidee.com/en/license</licenseUrl>
     <projectUrl>http://www.rapidee.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/michfield/devbox-choco/master/Devbox-RapidEE/Devbox-RapidEE.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Rapid Environment Editor (RapidEE) is an environment variables editor. It includes an easy to use GUI and replaces the small and inconvenient Windows edit box.</description>
     <summary>Rapid Environment Editor (RapidEE) is an environment variables editor.</summary>
-    <copyright>Copyright (c) 2010-2014 Oleg Danilov. All rights reserved.</copyright>
+    <copyright>Copyright (c) 2007-2016 Oleg Danilov. All rights reserved.</copyright>
     <tags>environment variable path editor</tags>
+    <packageSourceUrl>https://github.com/Raphx/chocolatey-packages</packageSourceUrl>
+    <releaseNotes>http://www.rapidee.com/en/history</releaseNotes>
   </metadata>
 </package>
