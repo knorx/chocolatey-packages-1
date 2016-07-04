@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>dex2jar</id>
+    <version>2.0</version>
+    <packageSourceUrl>https://github.com/pxb1988/dex2jar</packageSourceUrl>
+    <owners>Raphx</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>dex2jar</title>
+    <authors>pxb1988</authors>
+    <projectUrl>https://github.com/pxb1988/dex2jar</projectUrl>
+    <copyright>Apache 2.0</copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/pxb1988/dex2jar</projectSourceUrl>
+    <docsUrl>https://github.com/pxb1988/dex2jar/wiki</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/dex2jar</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>android decompiler smali</tags>
+    <summary>Tools to work with android .dex and java .class files</summary>
+    <description>Read/write the Dalvik Executable (.dex) file. Convert .dex file to .class files (zipped as jar). Disassemble dex to smali files and assemble dex from smali files, different implementation to smali/baksmali [http://code.google.com/p/smali], same syntax, but we support escape in type desc "Lcom/dex2jar\t\u1234;". Other tools: d2j-decrypt-string</description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->   
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
