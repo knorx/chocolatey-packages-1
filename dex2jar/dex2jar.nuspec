@@ -20,7 +20,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>android decompiler smali</tags>
     <summary>Tools to work with android .dex and java .class files</summary>
-    <description>Read/write the Dalvik Executable (.dex) file. Convert .dex file to .class files (zipped as jar). Disassemble dex to smali files and assemble dex from smali files, different implementation to smali/baksmali [http://code.google.com/p/smali], same syntax, but we support escape in type desc "Lcom/dex2jar\t\u1234;". Other tools: d2j-decrypt-string</description>
+    <description>Read/write the Dalvik Executable (.dex) file. Convert .dex file to .class files (zipped as jar). Disassemble dex to smali files and assemble dex from smali files, different implementation to smali/baksmali [ http://code.google.com/p/smali ], same syntax, but we support escape in type desc "Lcom/dex2jar\t\u1234;". Other tools: d2j-decrypt-string</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->   
   </metadata>
   <files>
