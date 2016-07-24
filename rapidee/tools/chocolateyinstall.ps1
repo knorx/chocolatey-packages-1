@@ -1,5 +1,5 @@
 ﻿$packageName = "rapidee"
-$installDir = Join-Path -Path $env:ChocolateyInstall -ChildPath "lib\$packagename\tools"
+$installDir = Split-Path $script:MyInvocation.MyCommand.Path
 $url = "http://www.rapidee.com/download/RapidEE.zip"
 $url64 = "http://www.rapidee.com/download/RapidEEx64.zip"
 $executable = Join-Path -Path $installDir -ChildPath "rapidee.exe"
