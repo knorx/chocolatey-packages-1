@@ -10,7 +10,7 @@ $packageVersion = $env:chocolateyPackageVersion
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url            = 'https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip' # download url
 #$url64      = '' # 64bit URL here or remove - if installer contains both (very rare), use $url
-$fileLocation = Join-Path $toolsDir "$packageName-$packageVersion"
+$fileLocation   = Join-Path $toolsDir "$packageName-$packageVersion"
 #$fileLocation = '\\SHARE_LOCATION\to\INSTALLER_FILE'
 
 $packageArgs = @{
