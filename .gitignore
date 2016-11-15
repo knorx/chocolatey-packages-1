@@ -49,3 +49,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+## Chocolatey
+*.nupkg
+
