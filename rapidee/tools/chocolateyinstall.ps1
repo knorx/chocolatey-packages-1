@@ -10,9 +10,9 @@ $packageArgs = @{
   unzipLocation   = $installDir
   url             = $url
   url64           = $url64
-  checksum        = 'd7c8ca2c9e4623edb48f4c0828677cb8a4d586a7'
+  checksum        = '32635e309b705f02a7117bc5105b148f4233a504'
   checksumType    = 'sha1' 
-  checksum64      = 'c48fd3dedf81b2091c7dcbcb9bbe23307bb05961'
+  checksum64      = '197f2c970aeeb983a68a7844832b2784a10d8e64'
   checksumType64  = 'sha1' 
 }
 

@@ -3,7 +3,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>rapidee</id>
-    <version>9.0.930.20160831</version>
+    <version>9.0.931</version>
     <packageSourceUrl>https://github.com/Raphx/chocolatey-packages</packageSourceUrl>
     <owners>Raphx</owners>
 
