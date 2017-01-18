@@ -17,11 +17,11 @@
     <projectSourceUrl>https://github.com/pxb1988/dex2jar</projectSourceUrl>
     <docsUrl>https://github.com/pxb1988/dex2jar/wiki</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/dex2jar</mailingListUrl>
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <bugTrackerUrl>https://github.com/pxb1988/dex2jar/issues</bugTrackerUrl>
     <tags>android decompiler smali</tags>
     <summary>Tools to work with android .dex and java .class files</summary>
     <description>Read/write the Dalvik Executable (.dex) file. Convert .dex file to .class files (zipped as jar). Disassemble dex to smali files and assemble dex from smali files, different implementation to smali/baksmali [ http://code.google.com/p/smali ], same syntax, but we support escape in type desc "Lcom/dex2jar\t\u1234;". Other tools: d2j-decrypt-string</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->   
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
