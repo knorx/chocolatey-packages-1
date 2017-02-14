@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop'
 
 $packageName = $env:chocolateyPackageName
 $installDir = Split-Path $script:MyInvocation.MyCommand.Path
@@ -10,9 +10,9 @@ $packageArgs = @{
   unzipLocation   = $installDir
   url             = $url
   url64           = $url64
-  checksum        = 'bd80e2c4fd8dbfe9eed01b75ea3d307ca71020b6'
+  checksum        = '2177a821de91a9f527127adecf224e89ffac1b08'
   checksumType    = 'sha1'
-  checksum64      = '8d7e3196fca8ddc15a89b06dbbd6319b62294b77'
+  checksum64      = '96ec7bfc45079708cd24ecce96af5cde8ac74e0e'
   checksumType64  = 'sha1'
 }
 
