@@ -2,8 +2,8 @@
 
 $packageName = $env:chocolateyPackageName
 $installDir = Split-Path $script:MyInvocation.MyCommand.Path
-$url = "http://www.rapidee.com/download/RapidEE.zip"
-$url64 = "http://www.rapidee.com/download/RapidEEx64.zip"
+$url = "https://www.rapidee.com/download/archive/932/RapidEE.zip"
+$url64 = "https://www.rapidee.com/download/archive/932/RapidEEx64.zip"
 
 $packageArgs = @{
   packageName     = $packageName
